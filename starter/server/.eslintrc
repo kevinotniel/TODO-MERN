@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "no-console": ["warn", {"allow": ["info"] }]
+     //warn sama seperti error, hanya meng allow 1 tipe info yang digunakan dari app.ts
+  }
+}
+  // semua config adalah sesuai yang diminta library eslint
